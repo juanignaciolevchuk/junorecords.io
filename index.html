@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juno Records</title>
+</head>
+<body>
+    <section title="titulo1">
+        <H1>Juno records</H1>
+    </section>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo de la empresa">
+        </div>
+    </header>
+    
+    <div class="navegador">
+        <div class="navArea">
+            <ul>
+                <li>
+                    <a href="https://open.spotify.com/intl-es/album/5WCsgNnXVw0DoTzb4FeQiu?si=2CQfmw00R-C0pKNbczLulw" onmouseenter="changeImage('mixing.jpg')">Mezcla</a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/playlist/7gkxvMdk5njySIcct0jp8m?si=90c869e546a94360" onmouseenter="changeImage('mastering.jpg')">Mastering</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/junorecordss/" onmouseenter="changeImage('contacto.jpg')">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="imgArea">
+            <img src="logo.PNG" id="slider"> 
+        
+        </div>
+    
+    </div>
+    <script>
+        function changeImage(anything){
+            document.getElementById('slider').src = anything
+        }
+    </script>
+</body>
+</html>
